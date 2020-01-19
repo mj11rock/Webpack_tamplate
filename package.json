@@ -1,0 +1,64 @@
+{
+  "name": "webpack-config",
+  "description": "This is my Webpack 4 configuration for static projects.",
+  "version": "1.4.0",
+  "private": true,
+  "author": {
+    "name": "Nenad Novaković",
+    "email": "n.dvlden@gmail.com",
+    "url": "https://github.com/dvlden"
+  },
+  "license": "MIT",
+  "scripts": {
+    "serve": "webpack-dev-server --progress --hide-modules --mode development",
+    "build": "webpack --progress --hide-modules --mode production"
+  },
+  "homepage": "https://github.com/dvlden/webpack-config#readme",
+  "bugs": "https://github.com/dvlden/webpack-config/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dvlden/webpack-config.git"
+  },
+  "keywords": [
+    "webpack",
+    "webpack 4",
+    "configuration",
+    "config"
+  ],
+  "browserslist": [
+    "last 1 major version",
+    "> 1%"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "autoprefixer": "^9.7.1",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.5",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "fibers": "^4.0.2",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^6.0.0",
+    "jsonminify": "^0.4.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.23.3",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-subresource-integrity": "^1.3.4",
+    "webpackbar": "^4.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  }
+}
